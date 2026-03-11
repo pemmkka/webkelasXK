@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Kelas - Tema Orange</title>
+    <title>Website XK</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar transparent">
         <div class="container">
             <div class="logo">
                 <a href="#">
@@ -19,12 +19,22 @@
                 </a>
             </div>
 
-            <ul class="nav-links">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-toggle" id="menuToggle"></div>
+
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#event">Event</a></li>
                 <li><a href="#struktur">Struktur</a></li>
                 <li><a href="#member">Member</a></li>
             </ul>
+
         </div>
     </nav>
 
@@ -38,11 +48,45 @@
         </div>
     </section>
 
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2 class="about-title">Tentang Kami</h2>
+            <p class="about-desc">
+                Selamat datang di markas digital KALDERA! Kami adalah sekumpulan siswa yang hobi belajar (dan hobi jajan) yang sedang
+                berjuang menuntut ilmu bersama. Di sini, solidaritas adalah harga mati. Dari tugas kelompok yang menumpuk sampai
+                keseruan Class Meeting, semua cerita kami ada di sini. Enjoy our journey!
+            </p>
+    
+            <div class="stats-container">
+            
+                <div class="stat-box">
+                    <div class="stat-icon">👦</div>
+                    <div class="stat-number" id="jumlahSiswa">0</div>
+                    <div class="stat-label">Siswa</div>
+                </div>
+            
+                <div class="stat-box">
+                    <div class="stat-icon">👧</div>
+                    <div class="stat-number" id="jumlahSiswi">0</div>
+                    <div class="stat-label">Siswi</div>
+                </div>
+            
+                <div class="stat-box">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-number" id="jumlahEvent">0</div>
+                    <div class="stat-label">Event</div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+
     <section class="event" id="event">
         <h2 class="event-section-title">Event Kelas</h2>
     
         <div class="event-container">
-    
+            
             <div class="event-visual-area">
                 <div class="bg-scroll-layer" id="bgScroll">
                     <div class="scroll-content" id="bgSlider"></div>
@@ -63,7 +107,62 @@
         </div>
     </section>
 
+
+    <section class="struktur" id="struktur">
+        <div class="container-struktur">
+            <h2 class="section-title">Struktur Kelas</h2>
+            <div class="tree-wrapper">
+                <div class="tree" id="treeRoot"></div>
+            </div>
+        </div>
+    </section>
     
+    <section class="member" id="member">
+        <h2 class="section-title">Member Kelas</h2>
+
+        <div class="member-carousel-container" id="memberSwipeArea">
+            <div class="member-track" id="memberTrack">
+            </div>
+        </div>
+
+        <div class="member-footer">
+            <a href="all-members.html" class="btn-view-all">Lihat Semua Member</a>
+        </div>
+    </section>
+
+    <section class="admin-section">
+        <div class="admin-container">
+            <div class="admin-card">
+                <div class="admin-left">
+                    <div class="pp-bundar">
+                        <img src="https://image2url.com/r2/default/images/1772205049976-6d43059f-da8b-4148-a3d4-6119602c2b63.jpg" alt="Admin">
+                    </div>
+                    <div class="admin-info">
+                        <span class="admin-name">Admin Kaldera</span>
+                    </div>
+                </div>
+    
+                <div class="admin-right">
+                    <span class="cp-label">Contact Person
+                    </span>
+                    <div class="contact-links">
+                        <a href="https://www.instagram.com/kaldera.smanda?igsh=amNnYzN2N21zMTdj" target="_blank" class="btn-contact">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="IG">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://wa.me/628557931265" target="_blank" class="btn-contact">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 
+
+    
+</body>
 </html>
