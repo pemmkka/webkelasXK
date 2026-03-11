@@ -261,7 +261,7 @@ const dataMember = [
     { "nama": "MUHAMMAD BAGAS PUTRASON PRADA", "absen": "21", "bio": "no bio yet.", "foto": "image.png" },
     { "nama": "MUHAMMAD UWAISS UNO MALIKI", "absen": "22", "bio": "no bio yet.", "foto": "image.png" },
     { "nama": "NADHIIFA NUR 'AQILA ZAIN", "absen": "23", "bio": "no bio yet.", "foto": "image.png" },
-    { "nama": "NADILA ISHARA PUTRI", "24": "24", "bio": "no bio yet.", "foto": "image.png" },
+    { "nama": "NADILA ISHARA PUTRI", "absen": "24", "bio": "no bio yet.", "foto": "image.png" },
     { "nama": "NAURA GISTA RONA AZZAHRA", "absen": "25", "bio": "no bio yet.", "foto": "image.png" },
     { "nama": "NOVIM ADI PRASTYO", "absen": "26", "bio": "ihiiiii", "foto": "image.png" },
     { "nama": "NUR ZAHROTUL HIKMAH", "absen": "27", "bio": "no bio yet.", "foto": "image.png" },
@@ -370,4 +370,5 @@ swipeArea.addEventListener('touchstart', () => {
 swipeArea.addEventListener('touchend', () => {
     autoSwipeTimer = setInterval(nextSlide, 2500); // Jalan lagi setelah dilepas
 });
+
 
