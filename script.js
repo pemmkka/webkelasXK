@@ -172,7 +172,7 @@ const dataStruktur = {
     children: [{
         role: "Wakil Ketua",
         name: "SENA",
-        img: "image.png",
+        img: "WK.jpg",
         children: [
             {
                 role: "Bendahara 1", // Jalur Kiri
@@ -271,7 +271,7 @@ const dataMember = [
     { "nama": "RINI MAILANI PUTRI", "absen": "31", "bio": "no bio yet.", "foto": "image.png" },
     { "nama": "SELLY AMANDA NUR HAFIDZAH", "absen": "32", "bio": "no bio yet.", "foto": "image.png" },
     { "nama": "SULTAN DZULFIKAR MUHAMMAD", "absen": "33", "bio": "no bio yet.", "foto": "image.png" },
-    { "nama": "UMAR SAID", "absen": "34", "bio": "Loh onok bio ne emang e?.", "foto": "image.png" },
+    { "nama": "UMAR SAID", "absen": "34", "bio": "Loh onok bio ne emang e?.", "foto": "UMAR.jpeg" },
     { "nama": "VIOLETA APRILIA KOMARUDIN", "absen": "35", "bio": "no bio yet.", "foto": "image.png" },
     { "nama": "WENDI MORENO HALIM", "absen": "36", "bio": "no bio yet.", "foto": "image.png" }
 ];
@@ -370,3 +370,4 @@ swipeArea.addEventListener('touchstart', () => {
 swipeArea.addEventListener('touchend', () => {
     autoSwipeTimer = setInterval(nextSlide, 2500); // Jalan lagi setelah dilepas
 });
+
